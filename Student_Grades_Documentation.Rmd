@@ -1,0 +1,36 @@
+---
+title: "Student Grades Analysis"
+author: "BDA400 Student Project"
+output: html_document
+---
+
+# Overview
+
+This project uses R to analyze five synthetic student grades. The goal is to calculate the average grade and explain the results using R Markdown.
+
+# Project Objectives
+
+- Store five synthetic student grades.
+- Calculate the average grade using R.
+- Display and explain the result.
+- Demonstrate clear documentation using R Markdown.
+
+# R Code
+
+```{r student-grades}
+grades <- c(75, 80, 85, 90, 95)
+average_grade <- mean(grades)
+print(average_grade)
+```
+
+# Expected Results
+
+The five grades are 75, 80, 85, 90, and 95. Their calculated average is 85.
+
+# Conclusion
+
+This example demonstrates how R can be used to organize numerical data and calculate a simple summary statistic. The student grades are synthetic and do not represent real students.
+
+# AI Assistance Disclosure
+
+ChatGPT was used to help draft the documentation, organize the sections, and suggest the R code. I am responsible for reviewing and testing the final work.
